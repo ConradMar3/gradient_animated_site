@@ -9,7 +9,7 @@ function MainArea() {
     return (
         <MainAreaStyled>
             <video src={business} muted playsInline autoPlay loop></video>
-            {<img src={circles} className="overlay" />}
+            {<img src={circles} className="overlay" alt=""/>}
             <InnerLayout>
                 <MainContent />
             </InnerLayout>
@@ -34,7 +34,7 @@ const MainAreaStyled = styled.header`
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 0.7;
+        opacity: 1;
     }
 `;
 

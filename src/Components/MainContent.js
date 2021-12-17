@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import CtaButton from './CtaButton';
 import Navigation from './Navigation';
 import SmallHeading from './SmallHeading';
-import blockchain from '../img/bchain.png';
+import smoke from '../img/smoke.png';
 
 function MainContent() {
     return (
@@ -11,17 +11,13 @@ function MainContent() {
             <Navigation />
             <div className="content">
                 <div className="left">
-                    <SmallHeading title={'All Digital Currencies in One Place'} identifier={'Before'} />
+                    <SmallHeading title={'Work in Progress.'} identifier={'Before'} />
                     <h1>
-                        All NFTs You need in One Marketplace
-                        The Best Place to Collect , Buy and Sell <span className='GradientText'>Awesome NFTs</span> 
+                        Conrad Maré
+                        <span className='GradientText'>Web Developer</span> 
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Vero id unde officiis hic nihil, quasi soluta ex corrupti nesciunt dolorem. 
-                        Cumque obcaecati sint officiis quis laboriosam vitae, error molestiae temporibus 
-                        voluptatum consectetur, 
-                        quibusdam magni, delectus a autem soluta optio laborum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <div className="btns-con">
                         <CtaButton name={'discover more'} />
@@ -29,7 +25,7 @@ function MainContent() {
                     </div>
                 </div>
                 <div className="right">
-                    <img src={blockchain} alt="" />
+                    <img src={smoke} alt="" />
                 </div>
             </div>
         </MainContentStyled >
@@ -66,7 +62,8 @@ const MainContentStyled = styled.div`
                 position: absolute;
                 right: -11%;
                 bottom: -1%;
-                width: 60%;
+                width: 40%;
+                opacity: 0.7;
             }
         }
     }
